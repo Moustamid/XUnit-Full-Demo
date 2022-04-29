@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine.Tests\\GameEngine.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine.Tests\\GameEngine.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine.Tests\\GameEngine.Tests.csproj",
+        "projectName": "GameEngine.Tests",
+        "projectPath": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine.Tests\\GameEngine.Tests.csproj",
+        "packagesPath": "C:\\Users\\karim.moustamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karim.moustamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.1": {
+            "targetAlias": "netcoreapp1.1",
+            "projectReferences": {
+              "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\GameEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.1": {
+          "targetAlias": "netcoreapp1.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\GameEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\GameEngine.csproj",
+        "projectName": "GameEngine",
+        "projectPath": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\GameEngine.csproj",
+        "packagesPath": "C:\\Users\\karim.moustamid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim.moustamid\\OneDrive\\AgileThought\\OneDrive - AgileThought\\Bootcamp\\01-Dotnet\\XUnit\\00-Getting Started\\GameEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karim.moustamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
